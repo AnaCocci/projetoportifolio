@@ -1,0 +1,99 @@
+* {
+    font-family: 'Chivo Mono', monospace;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: #061b38;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+#imagem_perfil {
+    width: 30%;
+    height: auto;
+    border-radius: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.resumo {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 300px;
+    color: rgb(23, 33, 146);
+}
+
+.minibio {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    color: #061b38;
+    width: 700px;
+}
+
+.habilidades {
+    color: rgb(48, 46, 187);
+}
+
+.redes {
+    color: rgb(64, 64, 191);
+}
+
+.container-mae {
+    padding: 40px;
+    background-color: #365684;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.filha {
+    background-color: #8eb1e1; 
+    width: 30%;
+    text-align: center;
+    padding: 12px;
+    margin: 0 12px;
+}
+
+#contatos {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.botao {
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 16px 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #0c346c;
+    margin: 10px 0;
+    font-size: 15px;
+    display: block;
+}
+
+#redes-sociais {
+    text-align: center;
+}
+
+.botao2 {
+    border: 0;
+    padding: 16px 16px;
+    height: auto;
+    display: inline-block;
+}
